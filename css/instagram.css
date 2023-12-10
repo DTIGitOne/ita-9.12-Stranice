@@ -1,0 +1,383 @@
+html {
+   height: 100%;
+}
+
+body {
+   height: 100%;
+   margin: 0;
+}
+
+.root {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.top {
+   height: 85%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+.bottom {
+   height: 15%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.left {
+   display: flex;
+   height: 93%;
+   width: 50%;
+   justify-content: flex-end;
+   align-items: flex-end;
+
+}
+
+.right {
+   display: flex;
+   height: 100%;
+   width: 50%;
+   align-items: flex-end;
+   gap:10px;
+}
+
+#homePageImageBackground {
+   display: flex;
+   height: 85%;
+   width: 45%;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 10px 10px 0px 0px;
+   z-index: -1;
+}
+
+#img1 {
+   z-index: -1;
+}
+
+#screenshotFlex {
+  z-index: 2;
+  margin: -200px -410px 76px 400px;
+}
+
+#info {
+   width: 40%;
+   height: 96%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+#logInForum {
+   display: flex;
+   height: 400px;
+   width: 350px;
+   box-sizing: border-box;
+   border: 1px solid lightgray;
+   flex-direction: column;
+}
+
+#signup {
+   display: flex;
+   height: 65px;
+   width: 350px;
+   box-sizing: border-box;
+   border: 1px solid lightgray;
+}
+
+#appInfo {
+   display: flex;
+   height: 110px;
+   width: 350px;
+}
+
+#logInForumTop {
+   display: flex;
+   height: 30%;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+#InstagramPNG {
+   padding-top: 20px;
+}
+
+#logInForumBottom {
+   display: flex;
+   height: 70%;
+   width: 100%;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 11px;
+}
+
+#userNameBox {
+   display: flex;
+   height: 37px;
+   width: 260px;
+   box-sizing: border-box;
+   border: 1px solid lightgray;
+   align-items: center;
+   padding: 1px 0 0 7px;
+   background-color: #F9F9F9;
+   border-radius: 3px;
+   margin-top: 8px;
+}
+
+#userName {
+   color:  black;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+   font-weight: lighter;
+   opacity: 0.9;
+   padding: 4px 45px 3px 0;
+   cursor: text;
+}
+
+#passwordBox {
+   display: flex;
+   height: 37px;
+   width: 260px;
+   box-sizing: border-box;
+   border: 1px solid lightgray;
+   align-items: center;
+   padding: 0px 0 0 7px;
+   background-color: #F9F9F9;
+   border-radius: 3px;
+   margin-top: -7px;
+}
+
+#password {
+   color:  black;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+   font-size: 12px;
+   font-weight: lighter;
+   opacity: 0.9;
+   padding:3px 180px 3px 0px;
+   cursor: text;
+}
+
+#logInBox {
+   display: flex;
+   height: 32px;
+   width: 260px;
+   box-sizing: border-box;
+   align-items: center;
+   background-color: #4cb5f9;
+   border-radius: 8px;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+
+#logIn {
+   font-size: 13px;
+   color: white;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+   font-weight: 700;
+}
+
+#seperationOrBox {
+   display: flex;
+   width: 260px;
+   height : 15px;
+   justify-content: center;
+   margin-bottom: 10px;
+}
+
+#seperationOr {
+   display: flex;
+   height: 100%;
+   width: 26%;
+   font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+   justify-content: center;
+   color: #585858;
+   font-weight: bold;
+   opacity: 0.9;
+}
+
+#seperationLineLeft {
+   width: 37%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#seperationLineRight {
+   display: flex;
+   width: 37%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+#borderLineLeft {
+   width: 100%;
+   height: 1px;
+   border-top: 1px solid #D9D9D9;
+}
+
+#borderLineRight {
+   width: 100%;
+   height: 1px;
+   border-top: 1px solid #D9D9D9;
+}
+
+#logInFacebookBox {
+   display: flex;
+   height: 20px;
+   width: 260px;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 1px 0px 1px 0px;
+   cursor: pointer;
+   margin-bottom: 2px;
+}
+
+#facebookLogo {
+   margin-right: 7px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#facebookLogIn {
+   color: #385185;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 13px;
+   font-weight: 700;
+}
+
+#forgotPassword {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+   color: #344C70;
+   cursor: pointer;
+   margin-bottom: 1px;
+   font-weight: 400;
+}
+
+#signup {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+}
+
+#signUpBlue {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   color: #4cb5f9;
+   font-weight: bold;
+   margin-left: 5px;
+   cursor: pointer;
+}
+
+#appInfo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+#appInfoTop {
+   display: flex;
+   height: 30%;
+   width: 100%;
+   justify-content: center;
+   align-items: flex-end;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+#appInfoBottom {
+   display: flex;
+   height: 70%;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+#appInfoBottom {
+   display: flex;
+}
+
+#googleStore {
+   margin-right: 7px;
+   cursor: pointer;
+}
+
+#microsoftStore {
+   cursor: pointer;
+}
+
+#bottomBox {
+   display: flex;
+   height: 100%;
+   width: 45%;
+   flex-direction: column;
+   gap:17px
+}
+
+#links {
+   display: flex;
+   justify-content: space-around;
+   height: 30%;
+   align-items: flex-end;
+}
+
+.links2 {
+   color: #4B4B4B;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+   margin-left: 15px;
+   cursor: pointer;
+}
+
+.links1 {
+   color: #4B4B4B;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+   cursor: pointer;
+}
+
+#languageAndMeta {
+   height: 70%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   margin-top: 5px;
+}
+
+#language {
+   display: flex;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #4B4B4B;
+   font-size: 12px;
+   cursor: pointer;
+}
+
+#languageBar {
+   margin-left: 3px;
+}
+
+#meta {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #4B4B4B;
+   font-size: 12px;
+   margin-left: 20px;
+}
